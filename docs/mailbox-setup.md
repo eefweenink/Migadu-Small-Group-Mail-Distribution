@@ -71,3 +71,13 @@ keep;
 ✅ Once the recipient has confirmed the forwarding, the mailbox is active, and all incoming emails will be automatically forwarded to the external address.
 
 ### Repeat this for all external forwarding mailboxes
+
+## 3. Setup Mailboxes for the Mail Distribution System
+
+Follow the steps above to create a mailbox.  
+
+**Important:** Do **NOT** set up external forwarding or the Sieve script for these mailboxes.  
+Skip the sections **Configure Forwarding** and **Configure Sieve Script (Webmail Side)**.  
+
+> Note: Refer to the Mail Distribution System setup for mailbox names and group allocation.
+
