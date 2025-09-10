@@ -6,7 +6,7 @@ For actual email distribution, we use **delegations only**.
 
 It is crucial to have a clear plan in advance for how emails should be distributed.  
 As an example, we have included the structure of our orchestra (see figure).  
-![image of structure of orchestra maildistribution](fig/Scherm­afbeelding 2025-08-28 om 11.08.32.png)
+![image of structure of orchestra maildistribution](/fig/Scherm%C2%ADafbeelding%202025-08-28%20om%2011.08.32.png)
 
 
 In this setup, there are two main categories:  
