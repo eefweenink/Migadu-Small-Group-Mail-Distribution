@@ -61,25 +61,7 @@ This structure ensures that the system works reliably while keeping setup simple
 
 ## How This Guide is Structured
 
-This guide is divided into several subdocuments, each covering a specific part of setting up and maintaining a Migadu-based mail distribution system for small groups:
-
-1. **[Overview and Concepts](docs/overview.md)**  
-   Explains the basic principles of a mail distribution system and how it can help small organizations.
-
-2. **[Mailbox and Group Setup](docs/mailbox-setup.md)**  
-   Step-by-step instructions for creating mailboxes, delegations, and shared addresses in Migadu.
-
-3. **[Forwarding and Distribution Rules](docs/forwarding-rules.md)**  
-   How to ensure messages are delivered to the right members and subgroups, and handle forwarding limitations.
-
-4. **[Best Practices](docs/best-practices.md)**  
-   Tips for managing shared email addresses, keeping communication organized, and avoiding common pitfalls.
-
-5. **[Maintenance and Updates](docs/maintenance.md)**  
-   Guidelines for ongoing management, including adding or removing members, reorganizing groups, and archiving emails.
-
-6. **[FAQ and Troubleshooting](docs/faq.md)**  
-   Answers to common questions and solutions to issues you might encounter.
+This guide is divided into several subdocuments, each covering a specific part of setting up and maintaining a Migadu-based mail distribution system.
 
 Each subdocument can be updated independently, allowing the guide to grow over time while keeping the main README concise.
 
