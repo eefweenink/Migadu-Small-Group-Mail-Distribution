@@ -65,6 +65,9 @@ This guide is divided into several subdocuments, each covering a specific part o
 
 Each subdocument can be updated independently, allowing the guide to grow over time while keeping the main README concise.
 
+- **[Key Decisions](docs/key-decisions.md)** – Fundamental choices that determine the overall design of the system.  
+- **[Mailbox Setup](docs/mailbox-setup.md)** – How to create personal mailboxes, configure forwarding, and apply Sieve scripts.  
+- **[Mail Distribution Setup](docs/mail-distribution-setup.md)** – How to structure delegations, groups, and the overall hierarchy for email distribution.  
 
 
 ## License
