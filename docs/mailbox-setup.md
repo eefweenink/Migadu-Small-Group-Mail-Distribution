@@ -16,3 +16,44 @@ After setup, log in here to start configuring your email system:
 [Login to Migadu](https://admin.migadu.com/public/login)
 
 
+## 2. Setup a Personal Mailbox with Forwarding
+
+Follow these steps to create a mailbox and forward all incoming emails to an external address:
+
+### Create the Mailbox
+
+1. Go to **Default Mailbox Services** and enable all options, including **ManageSieve** (this is a one-time setup for the first mailbox).  
+2. Click **New Mailbox**.  
+3. Enter the mailbox details:
+   - **Email address** and **Mailbox name**  
+   - Use a **recognizable name** for the person (e.g., first and last name), not a role or group. Roles and groups are handled separately in the mail distribution setup.  
+4. Set an **initial password**. Use the same password for all mailboxes — convenient for the administrator. Users can change it later if they need to access the mailbox directly via IMAP, etc.  
+5. Save the mailbox.
+
+### Configure Forwarding
+
+1. Click on the newly created mailbox.  
+2. In the right-hand menu, go to **Forwarding** → **New Forwarding**.  
+3. Enter the **destination email address**.  
+4. A confirmation email is sent to the destination address.  
+   - The recipient must **confirm the forwarding** either by clicking the link in the email or sending back the provided code.  
+5. Go back to **Forwarding** and check that the destination address is listed and active.  
+   - Forwarding will **not work** until the recipient confirms.
+
+### Set Group Tags
+
+1. In the right-hand menu, click **Listing Settings**.  
+2. Under **Comma-Separated Tags**, enter the **group name** this mailbox belongs to (see the section on configuring the mail distribution system).  
+3. Click **Save Changes**.
+
+### Configure Sieve Script (Webmail Side)
+
+1. Go to [Migadu Webmail](https://webmail.migadu.com/) and log in using the mailbox email and password.  
+   - Using the same password for all mailboxes is convenient for initial setup.  
+2. Go to **Settings → Filters**.  
+3. Add a new script, for example:  
+--------------------
+require ["fileinto", "variables", "envelope"];
+redirect "externalmailaddress@domain.com";
+keep;
+---------------------
