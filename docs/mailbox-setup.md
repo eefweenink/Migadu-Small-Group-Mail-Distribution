@@ -51,9 +51,9 @@ Follow these steps to create a mailbox and forward all incoming emails to an ext
 1. Go to [Migadu Webmail](https://webmail.migadu.com/) and log in using the mailbox email and password.  
    - Using the same password for all mailboxes is convenient for initial setup.  
 2. Go to **Settings → Filters**.  
-3. Add a new script, for example:  
-;--------------------
+3. Add a new script, use next example as most simple version:  
+
 require ["fileinto", "variables", "envelope"];
 redirect "externalmailaddress@domain.com";
 keep;
-;---------------------
+
