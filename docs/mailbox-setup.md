@@ -53,7 +53,10 @@ Follow these steps to create a mailbox and forward all incoming emails to an ext
 2. Go to **Settings → Filters**.  
 3. Add a new script, use next example as most simple version:  
 
+```sieve
 require ["fileinto", "variables", "envelope"];
 redirect "externalmailaddress@domain.com";
 keep;
+```
+
 
