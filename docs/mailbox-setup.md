@@ -52,8 +52,8 @@ Follow these steps to create a mailbox and forward all incoming emails to an ext
    - Using the same password for all mailboxes is convenient for initial setup.  
 2. Go to **Settings → Filters**.  
 3. Add a new script, for example:  
---------------------
+;--------------------
 require ["fileinto", "variables", "envelope"];
 redirect "externalmailaddress@domain.com";
 keep;
----------------------
+;---------------------
