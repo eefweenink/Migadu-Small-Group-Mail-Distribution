@@ -58,6 +58,15 @@ require ["fileinto", "variables", "envelope"];
 redirect "externalmailaddress@domain.com";
 keep;
 ```
+PS: If the receiver uses more then 1 mailadress:
+add extra lines: 
+```sieve
+require ["fileinto", "variables", "envelope"];
+redirect "externalmailaddress@domain.com";
+redirect "secondexternalmailaddress@domain.com";
+keep;
+```
+
 - Give the script a name, save it, and select it (the circle should be filled/black).  
 ✅ Once the recipient has confirmed the forwarding, the mailbox is active, and all incoming emails will be automatically forwarded to the external address.
 
