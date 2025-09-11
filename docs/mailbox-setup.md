@@ -22,7 +22,7 @@ Follow these steps to create a mailbox and forward all incoming emails to an ext
 
 ### Create the Mailbox
 
-1. Go to **Default Mailbox Services** and enable all options, including **ManageSieve** (this is a one-time setup for the first mailbox).  WARNING: By default, ManageSieve is disabled!
+1. Go to **Default Mailbox Services** and enable all options, including **ManageSieve** (this is a one-time setup for the all mailboxes).  WARNING: By default, ManageSieve is disabled!
 2. Click **New Mailbox**.  
 3. Enter the mailbox details:
    - **Email address** and **Mailbox name**  
